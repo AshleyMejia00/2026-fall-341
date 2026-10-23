@@ -1,9 +1,66 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="jJ6RSlt1Ie-e7IeUSuge">
-    <mxGraphModel dx="722" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="926" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="51Hk49uvZfAuzNkRSHjb-1" parent="1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="100" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="51Hk49uvZfAuzNkRSHjb-2" parent="1" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" value="Take the customer order" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="51Hk49uvZfAuzNkRSHjb-3" parent="1" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" value="Run the credit check" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="51Hk49uvZfAuzNkRSHjb-4" parent="1" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" value="Ship the goods" vertex="1">
+          <mxGeometry height="60" width="120" x="600" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="51Hk49uvZfAuzNkRSHjb-5" parent="1" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" value="Record the order" vertex="1">
+          <mxGeometry height="60" width="120" x="760" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="51Hk49uvZfAuzNkRSHjb-6" parent="1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="920" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="51Hk49uvZfAuzNkRSHjb-7" parent="1" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;" value="Reject the order" vertex="1">
+          <mxGeometry height="60" width="120" x="600" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="51Hk49uvZfAuzNkRSHjb-8" parent="1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="760" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="51Hk49uvZfAuzNkRSHjb-9" edge="1" parent="1" source="51Hk49uvZfAuzNkRSHjb-1" style="endArrow=block;endFill=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="51Hk49uvZfAuzNkRSHjb-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="51Hk49uvZfAuzNkRSHjb-10" edge="1" parent="1" source="51Hk49uvZfAuzNkRSHjb-2" style="endArrow=block;endFill=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="51Hk49uvZfAuzNkRSHjb-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="51Hk49uvZfAuzNkRSHjb-11" edge="1" parent="1" source="51Hk49uvZfAuzNkRSHjb-3" style="endArrow=block;endFill=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="399.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="51Hk49uvZfAuzNkRSHjb-12" edge="1" parent="1" source="51Hk49uvZfAuzNkRSHjb-17" style="endArrow=block;endFill=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;labelBackgroundColor=#ffffff;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="51Hk49uvZfAuzNkRSHjb-4" value="approved">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="374.9999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="51Hk49uvZfAuzNkRSHjb-13" edge="1" parent="1" source="51Hk49uvZfAuzNkRSHjb-4" style="endArrow=block;endFill=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="51Hk49uvZfAuzNkRSHjb-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="51Hk49uvZfAuzNkRSHjb-14" edge="1" parent="1" source="51Hk49uvZfAuzNkRSHjb-5" style="endArrow=block;endFill=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="51Hk49uvZfAuzNkRSHjb-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="51Hk49uvZfAuzNkRSHjb-15" edge="1" parent="1" source="51Hk49uvZfAuzNkRSHjb-17" style="endArrow=block;endFill=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=#ffffff;" target="51Hk49uvZfAuzNkRSHjb-7" value="rejected">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="424.9999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="51Hk49uvZfAuzNkRSHjb-16" edge="1" parent="1" source="51Hk49uvZfAuzNkRSHjb-7" style="endArrow=block;endFill=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="51Hk49uvZfAuzNkRSHjb-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="51Hk49uvZfAuzNkRSHjb-17" parent="1" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;labelPerimeter=1;" value="Credit Approved?" vertex="1">
+          <mxGeometry height="50" width="50" x="490" y="375" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
